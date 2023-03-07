@@ -1,0 +1,13 @@
+
+
+<blockquote class="blockquote shadow rounded p-3">
+  <p><%= params[:question] %></p>
+  <footer class="blockquote-footer">You</footer>
+</blockquote>
+
+<blockquote class="blockquote shadow rounded p-3">
+  <p><%= @answer %></p>
+  <footer class="blockquote-footer">Your coach</footer>
+</blockquote>
+
+<%= link_to "Ask another question", ask_path %>
